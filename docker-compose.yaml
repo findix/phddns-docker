@@ -1,0 +1,7 @@
+version: '3'
+services:
+  phddns:
+    container_name: phddns
+    image: phddns
+    restart: unless-stopped
+    network_mode: host
